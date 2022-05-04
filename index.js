@@ -21,6 +21,7 @@ export default function useTextToxicity(
         return {
           label: prediction.label,
           match,
+          text,
           probabilities,
           probability: (probabilities[1] * 100).toFixed(2) + "%",
         };
