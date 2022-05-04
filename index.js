@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import * as toxicity from "@tensorflow-models/toxicity";
 
-export default async function useTextToxicity(
+export default async function textToxicity(
   text,
   { threshold = 0.9, delay = 300 } = {}
 ) {
