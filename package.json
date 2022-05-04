@@ -1,5 +1,5 @@
 {
-  "name": "react-text-toxicity",
+  "name": "react-text-toxicity-stateful",
   "version": "0.1.0",
   "description": "Detect toxicity in text using React",
   "source": "index.js",
