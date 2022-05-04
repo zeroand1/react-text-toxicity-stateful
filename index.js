@@ -3,7 +3,7 @@ import * as toxicity from "@tensorflow-models/toxicity";
 
 export default async function textToxicity(text) {
   const model = useRef();
-
+  console.log(text);
   if (!text) return;
   model.current = model.current || (await toxicity.load());
   const result = await model.current.classify([text]).catch(() => {});
